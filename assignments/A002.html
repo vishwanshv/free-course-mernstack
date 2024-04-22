@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Registration</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
-        }
-        .container {
-            max-width: 500px;
-            margin: 100px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        input[type="text"], input[type="password"], input[type="email"] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            background-color: #f0c14b;
-            color: #111;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-            font-weight: bold;
-        }
+      .main {
+        display: flex;
+        /* justify-content: center;  */
+        /* justify-content: space-between;  */
+        justify-content: space-around;
+        background-color: silver;
+        padding: 10px
+      }
+      .box1 {
+        background-color: pink;
+        margin: 10px
+      }
+      .box2 {
+        background-color: yellow;
+        margin: 10px
+        
+      }
+      .box3 {
+        background-color: skyblue;
+        margin: 10px
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <h2>Create your Amazon account</h2>
-        <form>
-            <label for="name">Your name</label>
-            <input type="text" id="name" placeholder="Enter your name" name="name" required>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box1">
+        <img src="https://picsum.photos/seed/picsum/200/300" />
+      </div>
+      <div class="box2">
+        <h2>Name: Vishwansh</h2><br>
+        <h2>Qualification: Student</h2>
+      </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Enter email" name="email" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter password" name="password" required>
-
-            <label for="repassword">Re-enter password</label>
-            <input type="password" id="repassword" placeholder="Re-enter password" name="repassword" required>
-
-            <button type="submit">Create your Amazon account</button>
-        </form>
     </div>
-</body>
+    <br>
+    
+        <div class="box1">
+          <h2>About me:</h2><br>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem molestias porro asperiores voluptatum impedit, minus exercitationem ea illo ullam.<h/3>
+        </div>
+        <br>
+        
+        <div class="main">
+          <div class="box1">
+            <img src="https://picsum.photos/seed/picsum/200/300">
+          </div>
+          <div class="box2">
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quos provident quo. Alias tempora, error saepe ullam ex, accusantium quibusdam doloribus, voluptatibus dolorem eligendi velit. Id sed porro commodi placeat.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quod neque inventore, et repudiandae nulla recusandae, assumenda, dolorum nemo voluptatum ut doloremque perferendis. Blanditiis eum, obcaecati libero quam dignissimos architecto, totam beatae esse non corrupti minus reiciendis! Nihil, cum nam!
+            </h3>
+          </div>
+        </div>
+
+  </body>
 </html>
