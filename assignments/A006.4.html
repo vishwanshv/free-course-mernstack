@@ -1,0 +1,39 @@
+<!-- A school has the following grading system
+below 25-F
+25-45 - E
+45-50 - D
+50-60 - C
+60-80 - B
+Above 80-A  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script>
+            function f1() {
+                let n = t1.value;
+                if (n <= 25) {
+                    lbl.innerHTML = "F";
+                } else if (n > 25 && n <= 45) {
+                    lbl.innerHTML = "E";
+                } else if (n > 45 && n <= 50) {
+                    lbl.innerHTML = "D";
+                } else if (n > 50 && n <= 60) {
+                    lbl.innerHTML = "C";
+                } else if (n > 60 && n <= 80) {
+                    lbl.innerHTML = "B";
+                } else {
+                    lbl.innerHTML = "A";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p><input type="text" id="t1" /></p>
+        <button onclick="f1()">Submit</button>
+        <p><label id="lbl"></label></p>
+    </body>
+</html>

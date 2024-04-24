@@ -1,0 +1,31 @@
+<!-- Accept three numbers and print the largest number -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script>
+            function f1() {
+                let n1 = t1.value;
+                let n2 = t2.value;
+                let n3 = t3.value;
+                if (n1 > n2 && n1 > n3) {
+                    lbl.innerHTML = n1;
+                } else if (n2 > n1 && n2 > n3) {
+                    lbl.innerHTML = n2;
+                } else {
+                    lbl.innerHTML = n3;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p><input type="number" id="t1" /></p>
+        <p><input type="number" id="t2" /></p>
+        <p><input type="number" id="t3" /></p>
+        <button onclick="f1()">Submit</button>
+        <p><label id="lbl"></label></p>
+    </body>
+</html>
