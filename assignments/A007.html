@@ -1,0 +1,32 @@
+<!-- Take values of length and breadth of a rectangle from user and check if it is square or not -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1()
+        {
+            let n = t1.value;
+            let m = t2.value;
+            if(n==m)
+            {
+                lbl.innerHTML = "Shape is a Square";
+            }
+            else
+            {
+                lbl.innerHTML = "Shape is not a Square";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p><input type="text" id="t1" /></p>
+    <p><input type="text" id="t2" /></p>
+    <p><button type="submit" onclick="f1()">Submit</button></p>
+    <p><label id="lbl"></label></p>
+</body>
+</html>
