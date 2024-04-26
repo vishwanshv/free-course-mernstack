@@ -1,0 +1,27 @@
+<!-- Accept a number and check whether it is divisible by 5 
+or not -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script>
+            function f1() {
+                let n = t1.value;
+                if (n % 5 == 0) {
+                    lbl.innerHTML = "Divisible by 5";
+                } else {
+                    lbl.innerHTML = "Not Divisible by 5";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Divisible by 5</h1>
+        <input type="text" id="t1" />
+        <button onclick="f1()">Submit</button>
+        <p><label id="lbl"></label></p>
+    </body>
+</html>
