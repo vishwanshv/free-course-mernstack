@@ -7,11 +7,10 @@
 </head>
 <body>
     <script>
-         let score = [2,3,4,8]
-         let total = score.reduce((sum,value)=>{
-            return sum + value
-         })
-         console.log(total)
+        //Hoisting moves declaration to the top
+        x = 10
+        console.log(x)
+        var x
     </script>
 </body>
 </html>
